@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پلاتو شخصی من</title>
+    <style>
+        body { font-family: Tahoma, sans-serif; background-color: #f0f2f5; margin: 0; display: flex; flex-direction: column; align-items: center; }
+        header { background-color: #ef394e; color: white; width: 100%; text-align: center; padding: 20px 0; font-size: 24px; font-weight: bold; }
+        .container { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; padding: 20px; max-width: 500px; }
+        .game-card { background: white; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; padding: 20px; cursor: pointer; transition: 0.3s; }
+        .game-card:hover { transform: scale(1.05); }
+        .game-icon { font-size: 50px; margin-bottom: 10px; }
+        .game-name { font-weight: bold; color: #333; }
+    </style>
+</head>
+<body>
+
+<header>گیم‌هاب (پلاتو)</header>
+
+<div class="container">
+    <div class="game-card" onclick="location.href='/docs/tic-tac-toe'">
+        <div class="game-icon">❌</div>
+        <div class="game-name">دوز (Tic-Tac-Toe)</div>
+    </div>
+    <div class="game-card" onclick="location.href='/docs/chess'">
+        <div class="game-icon">♟️</div>
+        <div class="game-name">شطرنج</div>
+    </div>
+    </div>
+
+</body>
+</html>
